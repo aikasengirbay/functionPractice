@@ -16,20 +16,20 @@
     
 #     return new_book
 
-# def view_books(books):
-#     """View all books"""
+def view_books(books):
+    """View all books"""
 
-#     for book_list in books:
-#         print book_list
+    for book_list in books:
+        print book_list
 
-# def check_books(books):
-#     """Search for a book. If found return title if not None"""
+def check_books(books):
+    """Search for a book. If found return title if not None"""
     
-#     book_check = raw_input("Title > ")
-#     book_check = book_check.title()
-#     if book_check in books:
+    book_check = raw_input("Title > ")
+    book_check = book_check.title()
+    if book_check in books:
         
-#         return book_check    
+        return book_check    
 
 
 # def library():
@@ -95,7 +95,7 @@ while True:
 			count = count + 1
 
 
-		
+		test
 
 
 
